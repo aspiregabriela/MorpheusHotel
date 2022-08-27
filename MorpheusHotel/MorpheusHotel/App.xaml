@@ -7,7 +7,7 @@
 
         <Style TargetType="Button">
             <Setter Property="BackgroundColor" Value="Black" />
-            <Setter Property="TextColoror" Value="White" />
+            <Setter Property="TextColor" Value="White" />
             <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
         </Style>
 
