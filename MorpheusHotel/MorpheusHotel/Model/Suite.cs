@@ -9,7 +9,7 @@ namespace MorpheusHotel.Model
 {
     public class Suite : ContentPage
     {
-        public Suite();
+        public SuiteTeste();
         
         public string Nome { get; set; }
         public double DiariaAdulto { get; set; }
