@@ -8,8 +8,7 @@ using Xamarin.Forms;
 namespace MorpheusHotel.Model
 {
     public class Suite : ContentPage
-    {
-        public Suite();
+    {     
         
         public string Nome { get; set; }
         public double DiariaAdulto { get; set; }

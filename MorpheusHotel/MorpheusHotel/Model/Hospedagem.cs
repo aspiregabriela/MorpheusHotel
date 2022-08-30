@@ -11,9 +11,10 @@ namespace MorpheusHotel.Model
     {
         public Hospedagem()
         {
-            int quantidade_adultos;
-            int Suite, quarto_escolhido;
+            
         }
+        int quantidade_adultos;
+        Suite quarto_escolhido;
 
         public Suite QuartoEscolhido
         {

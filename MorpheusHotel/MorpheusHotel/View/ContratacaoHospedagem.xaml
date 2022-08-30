@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MorpheusHotel.View.ContratacaoHospedagem">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+
+                <Label Text="Cálculo da Hospedagem" />
+                <Label Text="Cálculo da Hospedagem"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title" TextColor="White"/>
+                <Label x:Name="lbl_usuario"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White" />
+
+                <Frame CornerRadius="10"
+                   BackgroundColor="#eee"
+                   Margin="10, 0, 10, 10">
+                
+                </Frame>
+
+                <Button Text="Calcular Hospedagem" Clicked="Button_Clicked" />
+
+                <Button Text="Sair" Clicked="Button_Clicked_1"
+                            TextColor="Black"
+                            BackgroundColor="#CCC" />
+
+            </StackLayout>  
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
