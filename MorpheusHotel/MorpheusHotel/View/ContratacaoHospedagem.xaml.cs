@@ -17,27 +17,30 @@ namespace MorpheusHotel.View
         public ContratacaoHospedagem()
         {
             InitializeComponent();
-
             PropriedadesApp = (App)Application.Current;
+
+            NavigationPage.SetHasNavigationBar(this, false);
+
+
 
         }
 
         public async void Button_Clicked(object sender, EventArgs e)
         {
-            bool confime = await DisplayAlert("Tem Certeza?",
-                                              "Desconectar sua conta ?",
-                                              "Sim", "Não");
-            if (confime)
-            {
-                App.Current.Properties.Remove("usuario_logado");
-                App.Current.MainPage = new Login();
-            }
+          
 
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
-
+            bool confime = await DisplayAlert("Tem Certeza?",
+                "Desconectar sua conta?",
+                "Sim", "Não");
+            if (confime)
+            {
+                App.Current.Properties.Remove("usuario_logado");
+                App.Current.MainPage= new Login();
+            }
         }
     }
 }
