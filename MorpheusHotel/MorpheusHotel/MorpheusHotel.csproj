@@ -19,10 +19,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Img\calculohospedagem.png" />
     <None Remove="Img\logoMorpheus.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Img\calculohospedagem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Img\logoMorpheus.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
