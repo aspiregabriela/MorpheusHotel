@@ -64,9 +64,6 @@ namespace MorpheusHotel.View
 
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
