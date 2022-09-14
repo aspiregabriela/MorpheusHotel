@@ -5,6 +5,9 @@
              BackgroundColor="Black">
     <ContentPage.Content>
 
+        
+        
+        
         <StackLayout>
             <Label Text="Cálculo da Hospedagem"
                    HorizontalTextAlignment="Center"
@@ -32,7 +35,7 @@
                                  x:Name="stepperAdultos"
                                  Minimum="0" Maximum="10" Increment="1" />
 
-                        <Label Grid.Row="1" Grid.Column="0" Text="Catarrentos" />
+                        <Label Grid.Row="1" Grid.Column="0" Text="Crianças" />
                         <Label Grid.Row="1" Grid.Column="1"
                                x:Name="lbl_qnt_criancas"
                                BindingContext="{x:Reference stepperCriancas}"

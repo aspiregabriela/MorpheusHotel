@@ -40,8 +40,8 @@
             <Frame CornerRadius="10">
                 <Grid ColumnDefinitions="*, *, *" 
                       RowDefinitions="*, *">
-                    <Label Grid.Row="0" Grid.Column="0" Text="Data CheckIn:dtpck_checkin" />
-                    <Label Grid.Row="0" Grid.Column="1" Text="Data CheckOut:dtpck_checkout " />
+                    <Label Grid.Row="0" Grid.Column="0" Text="Data CheckIn:" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Data CheckOut:" />
                     <Label Grid.Row="0" Grid.Column="2" Text="Estadia: " />
 
                     <Label Grid.Row="1" Grid.Column="0" Text="{Binding DataCheckIn, StringFormat='{}{0:dd/MM/yyyy}'}" />
