@@ -20,6 +20,16 @@ namespace MorpheusHotel.View
             InitializeComponent();
             PropriedadesApp = (App)Application.Current;
 
+            lbl_usuario.Text = App.Current.Properties["usuario_logado"].ToString();
+
+            pck_suite.ItemsSource = PropriedadesApp.suites;
+
+            dtpck_checkin.MinimumDate = DateTime.Now;
+            dtpck_checkin.MaximumDate = DateTime.Now.AddMonths(6);
+
+            dtpck_checkout.MinimumDate = DateTime.Now.AddDays(1);
+            dtpck_checkout.MaximumDate = DateTime.Now.AddMonths(6).AddDays(1);
+
         }
 
         private void dtpck_checkin_DateSelected(object sender, DateChangedEventArgs e)

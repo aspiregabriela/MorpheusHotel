@@ -3,12 +3,36 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MorpheusHotel.View;
 using System.Collections;
+using MorpheusHotel.Model;
+using System.Collections.Generic;
 
 namespace MorpheusHotel
 {
     public partial class App : Application
     {
-        internal IList lista_suites;
+       
+        public List<Suite> suites = new List<Suite>
+        {
+            new Suite()
+            {
+               Nome = "Luxo",
+               DiariaAdulto = 110.0,
+               DiariaCrianca = 55.0
+            },
+            new Suite()
+            {
+               Nome = "Executiva",
+               DiariaAdulto = 90.0,
+               DiariaCrianca = 45.0
+            },
+            new Suite()
+            {
+               Nome = "Econômica",
+               DiariaAdulto = 45.0,
+               DiariaCrianca = 20.0
+            }
+        };
+       
 
         public App()
         {
