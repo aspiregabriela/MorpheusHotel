@@ -61,7 +61,8 @@
                 </Label>
             </Frame>
 
-            <Button Text="Voltar" Clicked="Button_Clicked" />
+            <Button Text="Voltar" Clicked="Button_Clicked"
+                    BackgroundColor="White" TextColor="Black" CornerRadius="10"/>
 
         </StackLayout>
 

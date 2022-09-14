@@ -23,7 +23,7 @@
                     <Entry x:Name="txt_usuario" />
                     <Label Text="Senha:" />
                     <Entry IsPassword="True" x:Name="txt_senha" />
-                    <Button Text="Entrar" Clicked="Button_Clicked" />
+                    <Button Text="Entrar" Clicked="Button_Clicked" CornerRadius="10" />
                 </StackLayout>
             </Frame>
                                                       

@@ -67,11 +67,12 @@
                             </StackLayout>
                         </StackLayout>
                     </Frame>
-                    <Button Text="Calcular Hospedagem" Clicked="Button_Clicked" />
+                    <Button Text="Calcular Hospedagem" Clicked="Button_Clicked"
+                            CornerRadius="10"/>
 
                     <Button Text="Sair" Clicked="Button_Clicked_1"
                             TextColor="Black"
-                            BackgroundColor="#CCC" />
+                            BackgroundColor="#CCC" CornerRadius="10" />
 
                 </StackLayout>
             </Frame>
