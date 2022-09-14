@@ -2,12 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MorpheusHotel.View.HospedagemCalculada"
-             BackgroundColor="DarkOliveGreen"
+             BackgroundColor="Black"
              Padding="10">
     
     <ContentPage.Content>
 
+      
         <StackLayout>
+            
+            
             <Label Text="Detalhes da Estadia" />
             <Label Text="{Binding Path=QuartoEscolhido.Nome}"
                    FontSize="Title" />

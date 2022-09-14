@@ -18,6 +18,7 @@ namespace MorpheusHotel.View
         public ContratacaoHospedagem()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             PropriedadesApp = (App)Application.Current;
 
             lbl_usuario.Text = App.Current.Properties["usuario_logado"].ToString();

@@ -18,7 +18,7 @@
                 <StackLayout>
 
                     <Label Text="MORPHEUS HOTEL" FontSize="Title"  
-                       HorizontalTextAlignment="Center"/>
+                       HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"/>
                     <Label Text="Usuário:" />
                     <Entry x:Name="txt_usuario" />
                     <Label Text="Senha:" />
